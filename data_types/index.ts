@@ -25,3 +25,11 @@ let nullVar: null = null;                  // null
 let undefinedVar: undefined = undefined;   // undefined
 let symbolVar: symbol = Symbol("sym");     // symbols
 let bigIntVar: bigint = BigInt(9007199254740991); // big integers
+
+//arrays
+let numberArray: number[] = [1, 2, 3];
+let stringArray: string[] = ["apple", "banana", "cherry"];
+let mixedArray: (number | string)[] = [1, "apple", 2, "banana"];
+
+//tuple
+
