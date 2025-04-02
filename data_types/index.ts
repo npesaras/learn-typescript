@@ -31,5 +31,11 @@ let numberArray: number[] = [1, 2, 3];
 let stringArray: string[] = ["apple", "banana", "cherry"];
 let mixedArray: (number | string)[] = [1, "apple", 2, "banana"];
 
+console.log(mixedArray); //[1, "apple", 2, "banana"]
+
 //tuple
+let tupleVar: [number, string, boolean] = [1, "apple", true];
+let optionalTuple: [number, string, boolean?] = [1, "apple", false];
+
+console.log(optionalTuple); //access by index
 
