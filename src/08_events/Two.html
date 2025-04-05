@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Chai aur code</h1>
+  <button id="stop">Stop</button>
+</body>
+<script>
+  // # Method 01
+  setTimeout(function(){
+    console.log("Ka");
+  },2000) // This is done in one time only after given time
+  
+  // # Method 02
+  const changeName = function () {
+    document.querySelector('h1').innerHTML = "Best js course"    
+  }
+
+  const changeMe = setTimeout(changeName, 2000)
+
+  // # How to stop event before given time
+  document.querySelector('#stop').addEventListener('click', function(){
+    clearTimeout(changeMe)
+    console.log("Stopped");
+  })
+</script>
+</html>

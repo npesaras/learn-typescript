@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        // recommended extensions
+        "jdinhlife.gruvbox", //gruvbox theme
+        "aaron-bond.better-comments", //better comments
+        "ritwickdey.LiveServer", //live server
+        "esbenp.prettier-vscode", //prettier
+        "wmaurer.change-case", //change-case
+        "streetsidesoftware.code-spell-checker", //code spell checker
+        "PKief.material-icon-theme", //material icon theme
+        "christian-kohler.npm-intellisense", //npm intelligence
+        "dbaeumer.vscode-eslint", //eslint
+
+        //web development
+        "bradlc.vscode-tailwindcss", //tailwind css
+        "stivo.tailwind-fold", //tailwind fold
+        "ritwickdey.LiveServer", //live server
+
+        
+        //optional
+        "EditorConfig.EditorConfig", //editor config
+        "subframe7536.custom-ui-styles" //custom ui styles
+    ]
+}
