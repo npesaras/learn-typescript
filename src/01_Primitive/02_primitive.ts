@@ -1,3 +1,12 @@
+/**
+ * Defines a Character type for a role-playing game
+ * Demonstrates TypeScript's type system with:
+ * - Object type definition
+ * - String literal unions
+ * - Type implementation
+ */
+
+// Define the Character type with specific properties and constraints
 type Character = {
     characterName: string;
     characterAge: number;
